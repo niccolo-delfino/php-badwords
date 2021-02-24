@@ -24,8 +24,10 @@ $testoCensurato =str_replace($badword, '***', $testo);
   <h1>Ciao mi chiamo <?php echo $nome ?> e ho scelto questo paragrafo:</h1>
   <p><?php echo $testo ?></p>
   <h4>Il testo originale è lungo <?php echo $lunghezza ?> caratteri</h4>
+
   <h2>Testo variato</h2>
   <p><?php echo $testoVariato ?></p>
+  
   <h2>Testo censurato</h2>
   <p><?php echo $testoCensurato ?></p>
 
